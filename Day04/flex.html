@@ -1,0 +1,48 @@
+<!DOCTYPE html>               <!--flex: <flex-grow> <flex-shrink> <flex-basis-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 500px;
+            background-color: black;
+            padding: 10px;
+            display: flex;
+           /* flex-direction: column;*/
+           flex-direction: row;
+           justify-content: space-between;    /*justify content is used to move like in the center or in start ,space betwwen */
+           align-items: start;                 /*work on cross axis*/
+           /*flex-wrap: wrap;  */                 /*It is used to give automatic spacing according to the viewer*/
+        }
+        .item{
+            height: 80px;
+            padding: 10px;
+        }
+        .item1{
+            flex-grow: 1;
+        }
+        .item{
+            flex-grow: 1;
+        }
+        .item3{
+           /* width: 300px;*/   /*at place of width we can use this*/
+           flex-basis: 300px;
+            flex-shrink: 0;
+            order: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">           <!--.container>.item.item${item$}*4--> 
+        <div class="item item1" style="background-color: yellow;">item1</div>
+        <div class="item item2" style="background-color: blue;">item2</div>
+        <div class="item item3" style="background-color:red;">item3</div>
+        <div class="item item4" style="background-color: blueviolet;">item4</div>
+        <div class="item item4" style="background-color: brown;">item6</div>
+        <div class="item item4" style="background-color: forestgreen;">item4</div>
+        
+    </div>
+</body>
+</html>

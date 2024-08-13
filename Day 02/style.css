@@ -1,0 +1,26 @@
+h1{
+    color : red
+}
+
+/* using id */
+
+/*#heading {
+    color : blue
+}*/
+
+.heading1{
+    color : #fff000;
+}
+/*id >> class >> tagname */
+
+#secondary_heading {
+    color : rgba(0, 0, 0, 0.5);
+    background-color: mediumaquamarine;
+    padding: 20PX;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium','Arial Narrow'
+}
+/* used to remove the nullet points and numbering from the list*/
+ul{
+    list-style-type:none;
+}

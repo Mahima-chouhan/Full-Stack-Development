@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #para1{
+            background-color: mediumaquamarine;
+            padding: 10px;
+            position: static;    /*in case of static no left right bottom and top*/
+            top: 100px;
+        }
+        #para2{
+            background-color: mediumorchid;
+            padding: 10px;
+            position: absolute;
+           /* top: 100px;*/
+            right: 100px;
+            top: 40px;
+            z-index: -1;
+        }
+        #para3{
+            background-color: magenta;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p id="para1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque atque odio qui molestiae dolores optio laborum quo dicta sequi provident laudantium nobis accusantium, a nihil eius dignissimos distinctio ex veniam?</p>
+        <p id="para2">Dolorem officiis asperiores, a molestiae quis ratione eligendi sequi libero! Eveniet vel quia fugiat inventore cupiditate repellendus, nemo quod eos obcaecati. Provident eos in laborum ipsam deleniti asperiores explicabo. Rerum?</p>
+        <p id="para3">Illo exercitationem id blanditiis? Dolorem ducimus soluta dolore veritatis assumenda reprehenderit tempore, nemo, iure ad architecto similique. Vero quam nostrum perferendis provident, quae aliquam sint rerum, laborum velit, esse soluta.
+    </p>
+</body>
+</html>
+
+to hide the element in the current Document 
+display : none; //used most of the times
+visbility : hidden;
+opacity : 0;
